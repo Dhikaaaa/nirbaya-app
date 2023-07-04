@@ -13,11 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('settings', function (Blueprint $table) {
+        Schema::create('heroes', function (Blueprint $table) {
             $table->id();
-            $table->string('setting_name');
-            $table->string('setting_value');
-            $table->boolean('is_active')->default(1);
+            $table->string('title');
+            $table->string('subtitle');
+            $table->string('background_image');
+            $table->string('link_video');
+            $table->foreignId('user_id');
             $table->timestamps();
         });
     }
@@ -29,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('settings');
+        Schema::dropIfExists('heroes');
     }
 };

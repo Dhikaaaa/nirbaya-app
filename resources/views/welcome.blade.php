@@ -56,7 +56,8 @@
 
       <div class="row">
         <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-          <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          {{-- <img src="assets/img/about.jpg" class="img-fluid" alt=""> --}}
+          <img src=" https://source.unsplash.com/featured?technology" class="img-fluid" alt="technology">
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
           data-aos-delay="100">
@@ -211,27 +212,27 @@
       <div class="row">
 
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-          <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/clients/client-1.png') }}" class="img-fluid" alt="">
         </div>
 
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-          <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
         </div>
 
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-          <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
         </div>
 
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-          <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
         </div>
 
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-          <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
         </div>
 
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-          <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/clients/client-6.png') }}" class="img-fluid" alt="">
         </div>
 
       </div>
@@ -413,99 +414,99 @@
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>App 1</h4>
             <p>App</p>
-            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-1.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Web 3</h4>
             <p>Web</p>
-            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-2.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>App 2</h4>
             <p>App</p>
-            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Card 2</h4>
             <p>Card</p>
-            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Web 2</h4>
             <p>Web</p>
-            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-5.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>App 3</h4>
             <p>App</p>
-            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Card 1</h4>
             <p>Card</p>
-            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-7.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Card 3</h4>
             <p>Card</p>
-            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-8.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+          <img src="{{ asset('guest/assets/img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt="">
           <div class="portfolio-info">
             <h4>Web 3</h4>
             <p>Web</p>
-            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+            <a href="{{ asset('guest/assets/img/portfolio/portfolio-9.jpg') }}" data-gallery="portfolioGallery"
               class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
             <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
           </div>
@@ -532,7 +533,8 @@
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="member">
             <div class="member-img">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              {{-- <img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""> --}}
+              <img src="https://source.unsplash.com/featured?user-profile" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -550,7 +552,8 @@
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
           <div class="member">
             <div class="member-img">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              {{-- <img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""> --}}
+              <img src="https://source.unsplash.com/featured?user-profile" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -568,7 +571,8 @@
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="member">
             <div class="member-img">
-              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              {{-- <img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""> --}}
+              <img src="https://source.unsplash.com/featured?user-profile" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
@@ -586,7 +590,8 @@
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
           <div class="member">
             <div class="member-img">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              {{-- <img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""> --}}
+              <img src="https://source.unsplash.com/featured?user-profile" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
